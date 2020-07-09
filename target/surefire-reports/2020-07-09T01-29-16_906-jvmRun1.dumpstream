@@ -1,0 +1,461 @@
+# Created at 2020-07-09T01:29:22.996
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-07-09T01:29:23.401
+Unexpected IOException with stream: 2020-07-09 01:29:23.400  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:10489}] to cluster0-shard-00-02.bgvye.mongodb.net:27017
+
+
+# Created at 2020-07-09T01:29:23.410
+Unexpected IOException with stream: 2020-07-09 01:29:23.409  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:36}] to cluster0-shard-00-00.bgvye.mongodb.net:27017
+
+
+# Created at 2020-07-09T01:29:23.411
+Unexpected IOException with stream: 2020-07-09 01:29:23.410  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:3872}] to cluster0-shard-00-01.bgvye.mongodb.net:27017
+
+
+# Created at 2020-07-09T01:29:23.435
+Unexpected IOException with stream: 2020-07-09 01:29:23.434  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-01.bgvye.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=20494400, setName='atlas-c7bkjh-shard-0', canonicalAddress=cluster0-shard-00-01.bgvye.mongodb.net:27017, hosts=[cluster0-shard-00-02.bgvye.mongodb.net:27017, cluster0-shard-00-01.bgvye.mongodb.net:27017, cluster0-shard-00-00.bgvye.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-02.bgvye.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Jul 08 19:31:40 EDT 2020, lastUpdateTimeNanos=397881052825300}
+
+
+# Created at 2020-07-09T01:29:23.439
+Unexpected IOException with stream: 2020-07-09 01:29:23.438  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-00.bgvye.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26931500, setName='atlas-c7bkjh-shard-0', canonicalAddress=cluster0-shard-00-00.bgvye.mongodb.net:27017, hosts=[cluster0-shard-00-02.bgvye.mongodb.net:27017, cluster0-shard-00-01.bgvye.mongodb.net:27017, cluster0-shard-00-00.bgvye.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-02.bgvye.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Jul 08 19:31:40 EDT 2020, lastUpdateTimeNanos=397881057270500}
+
+
+# Created at 2020-07-09T01:29:23.441
+Unexpected IOException with stream: 2020-07-09 01:29:23.440  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=cluster0-shard-00-02.bgvye.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=37082100, setName='atlas-c7bkjh-shard-0', canonicalAddress=cluster0-shard-00-02.bgvye.mongodb.net:27017, hosts=[cluster0-shard-00-02.bgvye.mongodb.net:27017, cluster0-shard-00-01.bgvye.mongodb.net:27017, cluster0-shard-00-00.bgvye.mongodb.net:27017], passives=[], arbiters=[], primary='cluster0-shard-00-02.bgvye.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}, Tag{name='region', value='US_EAST_1'}]}, electionId=7fffffff0000000000000003, setVersion=1, lastWriteDate=Thu Jul 09 01:29:17 EDT 2020, lastUpdateTimeNanos=397881059323700}
+
+
+# Created at 2020-07-09T01:29:23.442
+Unexpected IOException with stream: 2020-07-09 01:29:23.441  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000003 from replica set primary cluster0-shard-00-02.bgvye.mongodb.net:27017
+
+
+# Created at 2020-07-09T01:29:23.443
+Unexpected IOException with stream: 2020-07-09 01:29:23.442  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 1 from replica set primary cluster0-shard-00-02.bgvye.mongodb.net:27017
+
+
+# Created at 2020-07-09T01:29:23.444
+Unexpected IOException with stream: 2020-07-09 01:29:23.443  INFO 11152 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary cluster0-shard-00-02.bgvye.mongodb.net:27017
+
+
+# Created at 2020-07-09T01:29:24.023
+Unexpected IOException with stream: 2020-07-09 01:29:24.022  INFO 11152 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2020-07-09T01:29:24.582
+Unexpected IOException with stream: 2020-07-09 01:29:24.581  INFO 11152 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [rocket-01.srvs.cloudkafka.com:9094, rocket-02.srvs.cloudkafka.com:9094, rocket-03.srvs.cloudkafka.com:9094]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = liqul774-consumers
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = SCRAM-SHA-256
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+
+
+# Created at 2020-07-09T01:29:24.697
+Unexpected IOException with stream: 2020-07-09 01:29:24.696  INFO 11152 --- [           main] o.a.k.c.s.authenticator.AbstractLogin    : Successfully logged in.
+
+
+# Created at 2020-07-09T01:29:24.777
+Unexpected IOException with stream: 2020-07-09 01:29:24.777  WARN 11152 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : The configuration 'spring.json.trusted.packages' was supplied but isn't a known config.
+
+
+# Created at 2020-07-09T01:29:24.780
+Unexpected IOException with stream: 2020-07-09 01:29:24.779  INFO 11152 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.5.0
+
+
+# Created at 2020-07-09T01:29:24.781
+Unexpected IOException with stream: 2020-07-09 01:29:24.780  INFO 11152 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 66563e712b0b9f84
+
+
+# Created at 2020-07-09T01:29:24.782
+Unexpected IOException with stream: 2020-07-09 01:29:24.782  INFO 11152 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1594272564778
+
+
+# Created at 2020-07-09T01:29:24.787
+Unexpected IOException with stream: 2020-07-09 01:29:24.786  INFO 11152 --- [           main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Subscribed to topic(s): liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:24.791
+Unexpected IOException with stream: 2020-07-09 01:29:24.790  INFO 11152 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+
+
+# Created at 2020-07-09T01:29:24.807
+Unexpected IOException with stream: 2020-07-09 01:29:24.806  INFO 11152 --- [           main] c.a.company.CompanyApplicationTests      : Started CompanyApplicationTests in 6.059 seconds (JVM running for 7.529)
+
+
+# Created at 2020-07-09T01:29:24.819
+Unexpected IOException with stream: 2020-07-09 01:29:24.819  INFO 11152 --- [           main] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [rocket-01.srvs.cloudkafka.com:9094, rocket-02.srvs.cloudkafka.com:9094, rocket-03.srvs.cloudkafka.com:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = SCRAM-SHA-256
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+
+
+# Created at 2020-07-09T01:29:24.847
+Unexpected IOException with stream: 2020-07-09 01:29:24.847  INFO 11152 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.5.0
+
+
+# Created at 2020-07-09T01:29:24.849
+Unexpected IOException with stream: 2020-07-09 01:29:24.848  INFO 11152 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 66563e712b0b9f84
+
+
+# Created at 2020-07-09T01:29:24.851
+Unexpected IOException with stream: 2020-07-09 01:29:24.849  INFO 11152 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1594272564847
+
+
+# Created at 2020-07-09T01:29:26.123
+Unexpected IOException with stream: 2020-07-09 01:29:26.123  INFO 11152 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: pYcYoDDUTqeB3Do6JOgORA
+
+
+# Created at 2020-07-09T01:29:26.127
+Unexpected IOException with stream: 2020-07-09 01:29:26.126  INFO 11152 --- [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Cluster ID: pYcYoDDUTqeB3Do6JOgORA
+
+
+# Created at 2020-07-09T01:29:26.137
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=1, message='A simple test message1'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.138
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=2, message='A simple test message2'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.139
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=3, message='A simple test message3'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.139
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=4, message='A simple test message4'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.140
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=5, message='A simple test message5'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.140
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=6, message='A simple test message6'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.141
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=7, message='A simple test message7'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.141
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=8, message='A simple test message8'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.142
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=9, message='A simple test message9'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.142
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=10, message='A simple test message10'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.143
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=11, message='A simple test message11'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.143
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=12, message='A simple test message12'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.144
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=13, message='A simple test message13'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.144
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=14, message='A simple test message14'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.145
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=15, message='A simple test message15'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.145
+Unexpected IOException with stream: 2020-07-09 01:29:26.144  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Discovered group coordinator rocket-02.srvs.cloudkafka.com:9094 (id: 2147483646 rack: null)
+
+
+# Created at 2020-07-09T01:29:26.146
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=16, message='A simple test message16'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.147
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=17, message='A simple test message17'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.147
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=18, message='A simple test message18'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.147
+Unexpected IOException with stream: Sent sample message [SampleMessage{id=19, message='A simple test message19'}] to liqul774-Orders
+
+
+# Created at 2020-07-09T01:29:26.149
+Unexpected IOException with stream: 2020-07-09 01:29:26.148  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] (Re-)joining group
+
+
+# Created at 2020-07-09T01:29:26.162
+Unexpected IOException: 5,1,com.application.company.CompanyApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2020-07-09T01:29:26.361
+Unexpected IOException: 6,1,com.application.company.CompanyApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2020-07-09T01:29:26.363
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.application.company.CompanyApplicationTests,null,null,null
+
+
+# Created at 2020-07-09T01:29:27.246
+Unexpected IOException with stream: 2020-07-09 01:29:27.245  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+
+
+# Created at 2020-07-09T01:29:27.246
+Unexpected IOException with stream: 2020-07-09 01:29:27.246  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] (Re-)joining group
+
+
+# Created at 2020-07-09T01:29:37.405
+Unexpected IOException with stream: 2020-07-09 01:29:37.404  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Finished assignment for group at generation 12: {consumer-liqul774-consumers-1-97665577-ae68-498d-a412-a65a0c76615c=Assignment(partitions=[liqul774-Orders-0, liqul774-Orders-1, liqul774-Orders-2, liqul774-Orders-3, liqul774-Orders-4])}
+
+
+# Created at 2020-07-09T01:29:37.543
+Unexpected IOException with stream: 2020-07-09 01:29:37.542  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Successfully joined group with generation 12
+
+
+# Created at 2020-07-09T01:29:37.549
+Unexpected IOException with stream: 2020-07-09 01:29:37.548  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Adding newly assigned partitions: liqul774-Orders-0, liqul774-Orders-1, liqul774-Orders-2, liqul774-Orders-3, liqul774-Orders-4
+
+
+# Created at 2020-07-09T01:29:37.827
+Unexpected IOException with stream: 2020-07-09 01:29:37.826  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Setting offset for partition liqul774-Orders-3 to the committed offset FetchPosition{offset=38, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[rocket-01.srvs.cloudkafka.com:9094 (id: 0 rack: null)], epoch=0}}
+
+
+# Created at 2020-07-09T01:29:37.828
+Unexpected IOException with stream: 2020-07-09 01:29:37.827  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Setting offset for partition liqul774-Orders-4 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[rocket-02.srvs.cloudkafka.com:9094 (id: 1 rack: null)], epoch=0}}
+
+
+# Created at 2020-07-09T01:29:37.829
+Unexpected IOException with stream: 2020-07-09 01:29:37.829  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Setting offset for partition liqul774-Orders-0 to the committed offset FetchPosition{offset=38, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[rocket-01.srvs.cloudkafka.com:9094 (id: 0 rack: null)], epoch=0}}
+
+
+# Created at 2020-07-09T01:29:37.831
+Unexpected IOException with stream: 2020-07-09 01:29:37.830  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Setting offset for partition liqul774-Orders-1 to the committed offset FetchPosition{offset=19, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[rocket-02.srvs.cloudkafka.com:9094 (id: 1 rack: null)], epoch=0}}
+
+
+# Created at 2020-07-09T01:29:37.832
+Unexpected IOException with stream: 2020-07-09 01:29:37.831  INFO 11152 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-liqul774-consumers-1, groupId=liqul774-consumers] Setting offset for partition liqul774-Orders-2 to the committed offset FetchPosition{offset=38, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[rocket-03.srvs.cloudkafka.com:9094 (id: 2 rack: null)], epoch=0}}
+
+
+# Created at 2020-07-09T01:29:37.937
+Unexpected IOException with stream: 2020-07-09 01:29:37.936  INFO 11152 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : liqul774-consumers: partitions assigned: [liqul774-Orders-0, liqul774-Orders-1, liqul774-Orders-2, liqul774-Orders-3, liqul774-Orders-4]
+
+
+# Created at 2020-07-09T01:29:47.157
+Unexpected IOException with stream: Consumed Message: A simple test message1
+
+
+# Created at 2020-07-09T01:29:47.158
+Unexpected IOException with stream: Consumed Message: A simple test message2
+
+
+# Created at 2020-07-09T01:29:47.158
+Unexpected IOException with stream: Consumed Message: A simple test message3
+
+
+# Created at 2020-07-09T01:29:47.158
+Unexpected IOException with stream: Consumed Message: A simple test message4
+
+
+# Created at 2020-07-09T01:29:47.159
+Unexpected IOException with stream: Consumed Message: A simple test message5
+
+
+# Created at 2020-07-09T01:29:47.159
+Unexpected IOException with stream: Consumed Message: A simple test message6
+
+
+# Created at 2020-07-09T01:29:47.160
+Unexpected IOException with stream: Consumed Message: A simple test message7
+
+
+# Created at 2020-07-09T01:29:47.160
+Unexpected IOException with stream: Consumed Message: A simple test message8
+
+
+# Created at 2020-07-09T01:29:47.161
+Unexpected IOException with stream: Consumed Message: A simple test message9
+
+
+# Created at 2020-07-09T01:29:47.161
+Unexpected IOException with stream: Consumed Message: A simple test message10
+
+
+# Created at 2020-07-09T01:29:47.161
+Unexpected IOException with stream: Consumed Message: A simple test message11
+
+
+# Created at 2020-07-09T01:29:47.162
+Unexpected IOException with stream: Consumed Message: A simple test message12
+
+
+# Created at 2020-07-09T01:29:47.162
+Unexpected IOException with stream: Consumed Message: A simple test message13
+
+
+# Created at 2020-07-09T01:29:47.163
+Unexpected IOException with stream: Consumed Message: A simple test message14
+
+
+# Created at 2020-07-09T01:29:47.163
+Unexpected IOException with stream: Consumed Message: A simple test message15
+
+
+# Created at 2020-07-09T01:29:47.164
+Unexpected IOException with stream: Consumed Message: A simple test message16
+
+
+# Created at 2020-07-09T01:29:47.164
+Unexpected IOException with stream: Consumed Message: A simple test message17
+
+
+# Created at 2020-07-09T01:29:47.165
+Unexpected IOException with stream: Consumed Message: A simple test message18
+
+
+# Created at 2020-07-09T01:29:47.165
+Unexpected IOException with stream: Consumed Message: A simple test message19
+
+
